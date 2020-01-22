@@ -1,11 +1,14 @@
 {
     "name": "consulta-chucknorris",
+    "homepage": "http://guimoreno0210.github.io/GuiaBolsoTeste",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --progress --colors --inline --hot",
-        "build": "webpack"
+        "build": "webpack",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "",
