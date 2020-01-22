@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "homepage": "https://guimoreno0210.github.io/GuiaBolsoTeste/",
+    "homepage": "https://guimoreno0210.github.io/GuiaBolsoTeste/index.html",
     "scripts": {
         "start": "webpack-dev-server --progress --colors --inline --hot",
         "build": "webpack",
